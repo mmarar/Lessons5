@@ -1,0 +1,17 @@
+x = [10, 20, 30, 40]
+
+y = len(x)
+z = [x[y-1]]
+
+for y in z:
+    y-=1
+    z+=z
+    print z
+
+
+
+
+x = [10, 20, 30, 40]
+y = list(reversed(x))
+print y
+print x[::-1]
